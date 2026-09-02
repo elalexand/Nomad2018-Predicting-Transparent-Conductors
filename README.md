@@ -42,3 +42,8 @@ unzip data/nomad2018-predict-transparent-conductors.zip -d data/
 ```
 RMSLE = sqrt( mean( (log(1 + y_pred) - log(1 + y_true))^2 ) )
 ```
+## Решение
+
+Использован метод KRR (Kernel Ridge Regression).
+Структуры представлены через SOAP-дескрипторы (Smooth Overlap of Atomic Positions), метод, который кодирует локальное атомное окружение через перекрытие гауссовых плотностей.
+Подробно изложено в презентации Александрович_bandgap.pptx.
